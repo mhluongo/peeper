@@ -20,6 +20,7 @@ setup(
     platforms=['posix'],
     tests_require=read('test_requirements.txt').split('\n'),
     install_requires=read('requirements.txt').split('\n'),
+    package_data={'peeper','data/*'},
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
